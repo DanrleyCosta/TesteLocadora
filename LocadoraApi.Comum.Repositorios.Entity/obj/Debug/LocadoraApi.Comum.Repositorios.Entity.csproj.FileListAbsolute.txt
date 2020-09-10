@@ -1,0 +1,14 @@
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraApi.Comum.Repositorios.Entity.dll.config
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraApi.Comum.Repositorios.Entity.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraApi.Comum.Repositorios.Entity.pdb
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\EntityFramework.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraApi.Comum.Repositorios.Interfaces.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraApi.Comum.Repositorios.Interfaces.pdb
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\EntityFramework.xml
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\obj\Debug\LocadoraApi.Comum.Repositorios.Entity.csprojAssemblyReference.cache
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\obj\Debug\LocadoraApi.Comum.Repositorios.Entity.csproj.CoreCompileInputs.cache
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\obj\Debug\LocadoraApi.Comum.Repositorios.Entity.csproj.CopyComplete
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\obj\Debug\LocadoraApi.Comum.Repositorios.Entity.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\obj\Debug\LocadoraApi.Comum.Repositorios.Entity.pdb

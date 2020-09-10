@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace LocadoraApi.Comum.Repositorios.Entity
 {
-    // manipulação de todos os dominios, para que funcionem em todas as entidades
-    public class RepositorioLocadoraApi<TDominio, TChave> : IRepositorioLocadoraApi<TDominio, TChave>
+    // manipulação de todos os dominios, para que funcionem em todas as entidades, como e uma classe base coloquei abstract para que não haja instanciação
+    public abstract class RepositorioLocadoraApi<TDominio, TChave> : IRepositorioLocadoraApi<TDominio, TChave>
         where TDominio : class
     {
         protected DbContext _context;

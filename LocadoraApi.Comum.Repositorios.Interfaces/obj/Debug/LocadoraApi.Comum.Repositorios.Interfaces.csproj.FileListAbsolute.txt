@@ -1,0 +1,14 @@
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\LocadoraApi.Comum.Repositorios.Interfaces.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\LocadoraApi.Comum.Repositorios.Interfaces.pdb
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\Antlr3.Runtime.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\Castle.Core.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\Newtonsoft.Json.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\WebGrease.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\Castle.Core.xml
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\Newtonsoft.Json.xml
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\obj\Debug\LocadoraApi.Comum.Repositorios.Interfaces.csprojAssemblyReference.cache
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\obj\Debug\LocadoraApi.Comum.Repositorios.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\obj\Debug\LocadoraApi.Comum.Repositorios.Interfaces.csproj.CopyComplete
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\obj\Debug\LocadoraApi.Comum.Repositorios.Interfaces.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\obj\Debug\LocadoraApi.Comum.Repositorios.Interfaces.pdb
