@@ -1,0 +1,6 @@
+C:\Users\danco\source\repos\LocadoraWebApi.Dominio\bin\Debug\LocadoraWebApi.Dominio.dll
+C:\Users\danco\source\repos\LocadoraWebApi.Dominio\bin\Debug\LocadoraWebApi.Dominio.pdb
+C:\Users\danco\source\repos\LocadoraWebApi.Dominio\obj\Debug\LocadoraWebApi.Dominio.csprojAssemblyReference.cache
+C:\Users\danco\source\repos\LocadoraWebApi.Dominio\obj\Debug\LocadoraWebApi.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\danco\source\repos\LocadoraWebApi.Dominio\obj\Debug\LocadoraWebApi.Dominio.dll
+C:\Users\danco\source\repos\LocadoraWebApi.Dominio\obj\Debug\LocadoraWebApi.Dominio.pdb

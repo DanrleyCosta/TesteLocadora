@@ -1,0 +1,16 @@
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\LocadoraWebApi.Consumo.Entity.dll.config
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\LocadoraWebApi.Consumo.Entity.dll
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\LocadoraWebApi.Consumo.Entity.pdb
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\EntityFramework.dll
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\LocadoraWebApi.Dominio.dll
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\LocadoraWebApi.Dominio.pdb
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\EntityFramework.xml
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.csprojAssemblyReference.cache
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.csproj.CoreCompileInputs.cache
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.csproj.CopyComplete
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.dll
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.pdb
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.Migrations.CriacaoTabelas.resources
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.csproj.GenerateResource.cache
