@@ -52,9 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\LocadoraDb.cs" />
-    <Compile Include="Migrations\202009092027056_CriacaoTabelas.cs" />
-    <Compile Include="Migrations\202009092027056_CriacaoTabelas.designer.cs">
-      <DependentUpon>202009092027056_CriacaoTabelas.cs</DependentUpon>
+    <Compile Include="Migrations\202009110001419_CriacaoLocadoraTabela.cs" />
+    <Compile Include="Migrations\202009110001419_CriacaoLocadoraTabela.designer.cs">
+      <DependentUpon>202009110001419_CriacaoLocadoraTabela.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,8 +70,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202009092027056_CriacaoTabelas.resx">
-      <DependentUpon>202009092027056_CriacaoTabelas.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202009110001419_CriacaoLocadoraTabela.resx">
+      <DependentUpon>202009110001419_CriacaoLocadoraTabela.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

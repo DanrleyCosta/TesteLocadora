@@ -12,5 +12,7 @@ namespace LocadoraWebApi.Dominio
         public DateTime DataEmprestimo { get; set; }
         public DateTime DataDevolucao { get; set; }
         public int Estoque { get; set; }
+        public List<Filme> Filmes { get; set; }
+        public List<Cliente> Clientes { get; set; }
     }
 }

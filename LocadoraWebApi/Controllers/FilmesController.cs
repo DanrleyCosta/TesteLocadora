@@ -15,33 +15,33 @@ namespace LocadoraWebApi.Controllers
     {
         private IRepositorioLocadoraApi<Filme, int> _repositorioFilmes = new RepositorioFilmes(new LocadoraDb());
 
-        public IEnumerable<Filme> Get()
+        public IHttpActionResult Get()
         {
-            return _repositorioFilmes.Selecionar();
+            return Ok(_repositorioFilmes.Selecionar());
         }
-        public HttpResponseMessage Get(int? id)
+        public IHttpActionResult Get(int? id)
         {
             if (!id.HasValue)
-                return Request.CreateResponse(HttpStatusCode.BadRequest);
+                return BadRequest();
 
             Filme filme = _repositorioFilmes.SelecionarPorId(id.Value);
 
             if (filme == null)
-                return Request.CreateResponse(HttpStatusCode.NotFound);
+                return NotFound();
 
-            return Request.CreateResponse(HttpStatusCode.Found, filme);
+            return Content(HttpStatusCode.Found,filme);
         }
-        public HttpResponseMessage Post([FromBody] Filme filme)
+        public IHttpActionResult Post([FromBody] Filme filme)
         {
             // tratamento caso não seja criado corretamente o filme
             try
             {
                 _repositorioFilmes.Inserir(filme);
-                return Request.CreateResponse(HttpStatusCode.Created);
+                return Created($"{Request.RequestUri}/{filme.Id}", filme);
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                return InternalServerError(ex);
             }
         }
     }

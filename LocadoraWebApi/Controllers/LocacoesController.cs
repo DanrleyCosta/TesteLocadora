@@ -15,50 +15,50 @@ namespace LocadoraWebApi.Controllers
     {
         private IRepositorioLocadoraApi<Locacao, int> _repositorioLocacoes = new RepositorioLocacoes(new LocadoraDb());
 
-        public IEnumerable<Locacao> Get()
+        public IHttpActionResult Get()
         {
-            return _repositorioLocacoes.Selecionar();
+            return Ok(_repositorioLocacoes.Selecionar());
         }
-        public HttpResponseMessage Get(int? id)
+        public IHttpActionResult Get(int? id)
         {
             if (!id.HasValue)
-                return Request.CreateResponse(HttpStatusCode.BadRequest);
+                return BadRequest();
 
             Locacao locacao = _repositorioLocacoes.SelecionarPorId(id.Value);
 
             if (locacao == null)
-                return Request.CreateResponse(HttpStatusCode.NotFound);
+                return NotFound();
 
-            return Request.CreateResponse(HttpStatusCode.Found, locacao);
+            return Content(HttpStatusCode.Found, locacao);
         }
-        public HttpResponseMessage Post([FromBody] Locacao locacao)
+        public IHttpActionResult Post([FromBody] Locacao locacao)
         {
             // tratamento caso não seja criado corretamente a locaçao
             try
             {
                 _repositorioLocacoes.Inserir(locacao);
-                return Request.CreateResponse(HttpStatusCode.Created);
+                return Created($"{Request.RequestUri}/{locacao.Id}", locacao);
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                return InternalServerError(ex);
             }
         }
-        public HttpResponseMessage Put(int? id, [FromBody] Locacao locacao)
+        public IHttpActionResult Put(int? id, [FromBody] Locacao locacao)
         {
             // tratamento caso não seja criado corretamente a locaçao
             try
             {
                 // modificação do status da locação
                 if (!id.HasValue)
-                    return Request.CreateResponse(HttpStatusCode.BadRequest);
+                    return BadRequest();
                 locacao.Id = id.Value;
                 _repositorioLocacoes.Atualizar(locacao);
-                return Request.CreateResponse(HttpStatusCode.OK);
+                return Ok();
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                return InternalServerError(ex);
             }
         }
     }

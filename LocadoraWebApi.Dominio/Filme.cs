@@ -11,5 +11,6 @@ namespace LocadoraWebApi.Dominio
         public int Id { get; set; }
         public string NomeFilme { get; set; }
         public string genero { get; set; }
+        public int EstoqueFilme { get; set; }
     }
 }

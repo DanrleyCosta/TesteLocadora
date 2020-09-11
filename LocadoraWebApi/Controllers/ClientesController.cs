@@ -15,34 +15,34 @@ namespace LocadoraWebApi.Controllers
     {
         private IRepositorioLocadoraApi<Cliente, int> _repositorioClientes = new RepositorioClientes(new LocadoraDb());
 
-        public IEnumerable<Cliente> Get()
+        public IHttpActionResult Get()
         {
-            return _repositorioClientes.Selecionar();
+            return Ok(_repositorioClientes.Selecionar());
         }
 
-        public HttpResponseMessage Get(int? id)
+        public IHttpActionResult Get(int? id)
         {
             if (!id.HasValue)
-                return Request.CreateResponse(HttpStatusCode.BadRequest);
+                return BadRequest();
             
             Cliente cliente = _repositorioClientes.SelecionarPorId(id.Value);
 
             if(cliente == null)            
-                return Request.CreateResponse(HttpStatusCode.NotFound);
+                return NotFound();
 
-            return Request.CreateResponse(HttpStatusCode.Found,cliente);
+            return Content(HttpStatusCode.Found, cliente);
         }
-        public HttpResponseMessage Post([FromBody] Cliente cliente)
+        public IHttpActionResult Post([FromBody] Cliente cliente)
         {
             // tratamento caso não seja criado corretamente o cliente
             try
             {
                 _repositorioClientes.Inserir(cliente);
-                return Request.CreateResponse(HttpStatusCode.Created);
+                return Created($"{Request.RequestUri}/{cliente.Id}", cliente);
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, ex.Message);
+                return InternalServerError(ex);
             }
         }
     }
