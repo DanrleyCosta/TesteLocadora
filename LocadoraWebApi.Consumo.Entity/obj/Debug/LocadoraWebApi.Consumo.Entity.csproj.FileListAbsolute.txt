@@ -12,5 +12,5 @@ C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebA
 C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.csproj.CopyComplete
 C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.dll
 C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.pdb
-C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.Migrations.CriacaoLocadoraTabela.resources
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.Migrations.Tabelas.resources
 C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.csproj.GenerateResource.cache

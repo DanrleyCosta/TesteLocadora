@@ -7,13 +7,13 @@ namespace LocadoraWebApi.Consumo.Entity.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class CriacaoLocadoraTabela : IMigrationMetadata
+    public sealed partial class Tabelas : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CriacaoLocadoraTabela));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Tabelas));
         
         string IMigrationMetadata.Id
         {
-            get { return "202009110001419_CriacaoLocadoraTabela"; }
+            get { return "202009122224464_Tabelas"; }
         }
         
         string IMigrationMetadata.Source

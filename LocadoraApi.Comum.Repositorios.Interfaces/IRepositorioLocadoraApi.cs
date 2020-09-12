@@ -18,5 +18,9 @@ namespace LocadoraApi.Comum.Repositorios.Interfaces
         TDominio SelecionarPorId(TChave id);
         void Inserir(TDominio dominio);
         void Atualizar(TDominio dominio);
+        void Excluir(TDominio dominio);
+        void ExcluirPorId(TChave dominio);
+        void LocarPorId(TChave dominio);
+        void DevolverPorId(TChave dominio);
     }
 }

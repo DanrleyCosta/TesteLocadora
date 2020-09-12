@@ -45,5 +45,38 @@ namespace LocadoraWebApi.Controllers
                 return InternalServerError(ex);
             }
         }
+        public IHttpActionResult Put(int? id, [FromBody] Cliente cliente)
+        {
+            // tratamento caso não seja criado corretamente o cliente
+            try
+            {
+                // modificação do status do cliente
+                if (!id.HasValue)
+                    return BadRequest();
+                cliente.Id = id.Value;
+                _repositorioClientes.Atualizar(cliente);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        }
+        public IHttpActionResult Delete(int? id)
+        {
+            // tratamento caso não seja criado corretamente o cliente
+            try
+            {
+                // modificação do status do cliente
+                if (!id.HasValue)
+                    return BadRequest();
+                _repositorioClientes.ExcluirPorId(id.Value);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        }
     }
 }

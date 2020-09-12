@@ -11,6 +11,7 @@ using System.Web.Http;
 
 namespace LocadoraWebApi.Controllers
 {
+    // Class que implementa todos os verbos que indentificam o RESTful
     public class LocacoesController : ApiController
     {
         private IRepositorioLocadoraApi<Locacao, int> _repositorioLocacoes = new RepositorioLocacoes(new LocadoraDb());
@@ -52,8 +53,25 @@ namespace LocadoraWebApi.Controllers
                 // modificação do status da locação
                 if (!id.HasValue)
                     return BadRequest();
+
                 locacao.Id = id.Value;
                 _repositorioLocacoes.Atualizar(locacao);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        }
+        public IHttpActionResult Delete(int? id)
+        {
+            // tratamento caso não seja criado corretamente o filme
+            try
+            {
+                // Excluir por ID
+                if (!id.HasValue)
+                    return BadRequest();
+                _repositorioLocacoes.ExcluirPorId(id.Value);
                 return Ok();
             }
             catch (Exception ex)

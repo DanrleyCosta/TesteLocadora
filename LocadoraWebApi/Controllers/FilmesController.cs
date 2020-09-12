@@ -44,5 +44,40 @@ namespace LocadoraWebApi.Controllers
                 return InternalServerError(ex);
             }
         }
+        public IHttpActionResult Put(int? id, [FromBody] Filme filme)
+        {
+            // tratamento caso não seja criado corretamente o filme
+            try
+            {
+                // modificação do status do filme
+                if (!id.HasValue)
+                    return BadRequest();
+
+
+                filme.Id = id.Value;
+                _repositorioFilmes.Atualizar(filme);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        }
+        public IHttpActionResult Delete(int? id)
+        {
+            // tratamento caso não seja criado corretamente o filme
+            try
+            {
+                // Excluir por ID
+                if (!id.HasValue)
+                    return BadRequest();
+                _repositorioFilmes.ExcluirPorId(id.Value);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        }
     }
 }
