@@ -67,14 +67,12 @@ namespace LocadoraApi.Comum.Repositorios.Entity
             _context.Set<Locacao>().Add(locacao);
         }
 
-        public void DevolverPorId(TChave id, DateTime dataDevolucao)
+        public void DevolverPorId(TChave id)
         {
             TDominio dominio = SelecionarPorId(id);
-            Locacao locacao = db.Locacoes.Find(id);
-            locacao.DataDevolucao = dataDevolucao;
-            // supondo que a locação tivesse um prazo de 10 dias 
-            //(o prazo poderia ser uma propriedade de locação, mas para simplificar coloquei um valor fixo no codigo)
-            if (dataDevolucao > locacao.DataLocacao.AddDays(10))
+            var locacao = db.Locacoes.Find(id);
+
+            if (DateTime.Now > locacao.DataDevolucao)
                 throw new Exception("Filme está com atraso!");
             else
                 Atualizar(dominio);

@@ -22,6 +22,6 @@ namespace LocadoraApi.Comum.Repositorios.Interfaces
         void Excluir(TDominio dominio);
         void ExcluirPorId(TChave dominio);
         void LocarPorId(Locacao dominio);
-        void DevolverPorId(TChave dominio, DateTime dataDevolucao);
+        void DevolverPorId(TChave dominio);
     }
 }

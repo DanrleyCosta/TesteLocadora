@@ -39,6 +39,7 @@ namespace LocadoraWebApi.Controllers
             try
             {
                 _repositorioLocacoes.LocarPorId(locacao);
+                _repositorioLocacoes.Inserir(locacao);
                 return Created($"{Request.RequestUri}/{locacao.Id}", locacao);
             }
             catch (Exception ex)
@@ -48,15 +49,14 @@ namespace LocadoraWebApi.Controllers
         }
         public IHttpActionResult Put(int? id, [FromBody] Locacao locacao)
         {
-            // tratamento caso não seja editado corretamente a locação
+            // tratamento caso não seja editado corretamente a devolução
             try
             {
                 // verificar a entra por id
                 if (!id.HasValue)
                     return BadRequest();
 
-                locacao.Id = id.Value;
-                _repositorioLocacoes.Atualizar(locacao);
+                _repositorioLocacoes.DevolverPorId(id.Value);
                 return Ok();
             }
             catch (Exception ex)

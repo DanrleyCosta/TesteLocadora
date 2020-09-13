@@ -23,7 +23,7 @@ namespace LocadoraWebApi.Dominio
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
-        public DateTime? DataDevolucao { get; set; }
+        public DateTime DataDevolucao { get; set; }
         [Required]
         [UIHint("FilmeDropDownList")]
         [Display(Name = "Filme")]
