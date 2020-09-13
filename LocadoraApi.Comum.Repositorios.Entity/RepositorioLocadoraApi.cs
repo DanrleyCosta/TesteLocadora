@@ -11,7 +11,8 @@ using System.Threading.Tasks;
 
 namespace LocadoraApi.Comum.Repositorios.Entity
 {
-    // manipulação de todos os dominios, para que funcionem em todas as entidades, como e uma classe base coloquei abstract para que não haja instanciação
+    // Manipulação de todos os dominios, para que funcionem em todas as entidades. 
+    // como e uma classe base coloquei abstract para que não haja instanciação da mesma
     public abstract class RepositorioLocadoraApi<TDominio, TChave> : IRepositorioLocadoraApi<TDominio, TChave>
         where TDominio : class
     {
@@ -22,20 +23,16 @@ namespace LocadoraApi.Comum.Repositorios.Entity
         {
             _context = context;
         }
+        public void Inserir(TDominio dominio)
+        {
+            _context.Set<TDominio>().Add(dominio);
+            _context.SaveChanges();
+        }
         public void Atualizar(TDominio dominio)
         {
             _context.Entry(dominio).State = EntityState.Modified; // gerar updates
             _context.SaveChanges();
         }
-
-        public void DevolverPorId(TChave id, DateTime dataDevolucao)
-        {
-            TDominio dominio = SelecionarPorId(id);
-            Locacao locacao = db.Locacoes.Find(id);
-            locacao.DataDevolucao = dataDevolucao;
-            Atualizar(dominio);
-        }
-
         public void Excluir(TDominio dominio)
         {
             _context.Entry(dominio).State = EntityState.Deleted;
@@ -46,21 +43,6 @@ namespace LocadoraApi.Comum.Repositorios.Entity
         {
             TDominio dominio = SelecionarPorId(id);
             Excluir(dominio);
-        }
-
-        public void Inserir(TDominio dominio)
-        {
-            _context.Set<TDominio>().Add(dominio);
-            _context.SaveChanges();
-        }
-
-        public void LocarPorId(Locacao locacao)
-        {
-            locacao.Filme = db.Filmes.Find(locacao.FId);
-            locacao.Cliente = db.Clientes.Find(locacao.CId);
-            if (!locacao.PossuiCreditos())
-                throw new Exception("Cliente não possui créditos suficientes para locação");
-            _context.Set<Locacao>().Add(locacao);
         }
 
         public List<TDominio> Selecionar(Expression<Func<TDominio, bool>> where = null)
@@ -75,6 +57,27 @@ namespace LocadoraApi.Comum.Repositorios.Entity
         public TDominio SelecionarPorId(TChave id)
         {
             return _context.Set<TDominio>().Find(id);
+        }
+        public void LocarPorId(Locacao locacao)
+        {
+            locacao.Filme = db.Filmes.Find(locacao.FId);
+            locacao.Cliente = db.Clientes.Find(locacao.CId);
+            if (!locacao.PossuiCreditos())
+                throw new Exception("Cliente não possui créditos suficientes para locação!");
+            _context.Set<Locacao>().Add(locacao);
+        }
+
+        public void DevolverPorId(TChave id, DateTime dataDevolucao)
+        {
+            TDominio dominio = SelecionarPorId(id);
+            Locacao locacao = db.Locacoes.Find(id);
+            locacao.DataDevolucao = dataDevolucao;
+            // supondo que a locação tivesse um prazo de 10 dias 
+            //(o prazo poderia ser uma propriedade de locação, mas para simplificar coloquei um valor fixo no codigo)
+            if (dataDevolucao > locacao.DataLocacao.AddDays(10))
+                throw new Exception("Filme está com atraso!");
+            else
+                Atualizar(dominio);
         }
     }
 }

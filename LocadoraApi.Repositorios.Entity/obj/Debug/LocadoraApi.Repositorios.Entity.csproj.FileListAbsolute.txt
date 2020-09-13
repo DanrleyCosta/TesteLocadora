@@ -20,3 +20,5 @@ C:\Users\danco\source\repos\LocadoraApi.Repositorios.Entity\obj\Debug\LocadoraAp
 C:\Users\danco\source\repos\LocadoraApi.Repositorios.Entity\obj\Debug\LocadoraApi.Repositorios.Entity.csproj.CopyComplete
 C:\Users\danco\source\repos\LocadoraApi.Repositorios.Entity\obj\Debug\LocadoraApi.Repositorios.Entity.dll
 C:\Users\danco\source\repos\LocadoraApi.Repositorios.Entity\obj\Debug\LocadoraApi.Repositorios.Entity.pdb
+C:\Users\danco\source\repos\LocadoraApi.Repositorios.Entity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\danco\source\repos\LocadoraApi.Repositorios.Entity\bin\Debug\Newtonsoft.Json.xml

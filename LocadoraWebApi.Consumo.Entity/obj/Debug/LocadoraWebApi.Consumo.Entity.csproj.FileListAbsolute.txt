@@ -14,3 +14,5 @@ C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebA
 C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.pdb
 C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.Migrations.Tabelas.resources
 C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\obj\Debug\LocadoraWebApi.Consumo.Entity.csproj.GenerateResource.cache
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\danco\source\repos\LocadoraWebApi.Consumo.Entity\bin\Debug\Newtonsoft.Json.xml

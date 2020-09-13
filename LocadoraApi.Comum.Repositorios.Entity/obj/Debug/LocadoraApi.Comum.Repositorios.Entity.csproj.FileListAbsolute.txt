@@ -12,3 +12,10 @@ C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\obj\Debug\Loca
 C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\obj\Debug\LocadoraApi.Comum.Repositorios.Entity.csproj.CopyComplete
 C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\obj\Debug\LocadoraApi.Comum.Repositorios.Entity.dll
 C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\obj\Debug\LocadoraApi.Comum.Repositorios.Entity.pdb
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraWebApi.Consumo.Entity.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraWebApi.Dominio.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraWebApi.Consumo.Entity.pdb
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraWebApi.Consumo.Entity.dll.config
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\LocadoraWebApi.Dominio.pdb
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Entity\bin\Debug\Newtonsoft.Json.xml

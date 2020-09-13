@@ -4,3 +4,6 @@ C:\Users\danco\source\repos\LocadoraWebApi.Dominio\obj\Debug\LocadoraWebApi.Domi
 C:\Users\danco\source\repos\LocadoraWebApi.Dominio\obj\Debug\LocadoraWebApi.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\danco\source\repos\LocadoraWebApi.Dominio\obj\Debug\LocadoraWebApi.Dominio.dll
 C:\Users\danco\source\repos\LocadoraWebApi.Dominio\obj\Debug\LocadoraWebApi.Dominio.pdb
+C:\Users\danco\source\repos\LocadoraWebApi.Dominio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\danco\source\repos\LocadoraWebApi.Dominio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\danco\source\repos\LocadoraWebApi.Dominio\obj\Debug\LocadoraWebApi.Dominio.csproj.CopyComplete

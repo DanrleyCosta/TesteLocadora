@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -27,11 +28,13 @@ namespace LocadoraWebApi.Dominio
         [UIHint("FilmeDropDownList")]
         [Display(Name = "Filme")]
         public int FId { get; set; }
+        [JsonIgnore]
         public virtual Filme Filme { get; set; }
         [Required]
         [UIHint("ClienteDropDownList")]
         [Display(Name = "Cliente")]
         public int CId { get; set; }
+        [JsonIgnore]
         public virtual Cliente Cliente { get; set; }
 
         public bool PossuiCreditos()

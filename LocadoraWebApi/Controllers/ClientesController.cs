@@ -64,7 +64,7 @@ namespace LocadoraWebApi.Controllers
         }
         public IHttpActionResult Delete(int? id)
         {
-            // tratamento caso não seja criado corretamente o cliente
+            // Exclusão apenas via verbo DELETE
             try
             {
                 // modificação do status do cliente

@@ -12,3 +12,5 @@ C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\obj\Debug\
 C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\obj\Debug\LocadoraApi.Comum.Repositorios.Interfaces.csproj.CopyComplete
 C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\obj\Debug\LocadoraApi.Comum.Repositorios.Interfaces.dll
 C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\obj\Debug\LocadoraApi.Comum.Repositorios.Interfaces.pdb
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\LocadoraWebApi.Dominio.dll
+C:\Users\danco\source\repos\LocadoraApi.Comum.Repositorios.Interfaces\bin\Debug\LocadoraWebApi.Dominio.pdb

@@ -31,7 +31,8 @@ namespace LocadoraWebApi.Controllers
                 return NotFound();
 
             return Content(HttpStatusCode.Found, locacao);
-        }
+        } 
+  
         public IHttpActionResult Post([FromBody] Locacao locacao)
         {
             // tratamento caso não seja criado corretamente a locaçao
@@ -47,10 +48,10 @@ namespace LocadoraWebApi.Controllers
         }
         public IHttpActionResult Put(int? id, [FromBody] Locacao locacao)
         {
-            // tratamento caso não seja criado corretamente a locação
+            // tratamento caso não seja editado corretamente a locação
             try
             {
-                // modificação do status da locação
+                // verificar a entra por id
                 if (!id.HasValue)
                     return BadRequest();
 
