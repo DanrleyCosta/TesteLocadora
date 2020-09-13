@@ -61,5 +61,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LocadoraWebApi.Dominio\LocadoraWebApi.Dominio.csproj">
+      <Project>{BCE6426C-603E-4A09-A017-CDC80EE5340C}</Project>
+      <Name>LocadoraWebApi.Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

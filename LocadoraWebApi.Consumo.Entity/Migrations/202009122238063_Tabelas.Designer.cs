@@ -13,7 +13,7 @@ namespace LocadoraWebApi.Consumo.Entity.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202009122224464_Tabelas"; }
+            get { return "202009122238063_Tabelas"; }
         }
         
         string IMigrationMetadata.Source

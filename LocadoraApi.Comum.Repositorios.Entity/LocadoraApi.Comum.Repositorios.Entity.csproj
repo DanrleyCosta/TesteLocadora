@@ -63,6 +63,14 @@
       <Project>{7262040c-499a-4976-b1c6-9b7647261cb1}</Project>
       <Name>LocadoraApi.Comum.Repositorios.Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LocadoraWebApi.Consumo.Entity\LocadoraWebApi.Consumo.Entity.csproj">
+      <Project>{07BC1154-AE64-43B1-AF47-A5F0B894ACBF}</Project>
+      <Name>LocadoraWebApi.Consumo.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LocadoraWebApi.Dominio\LocadoraWebApi.Dominio.csproj">
+      <Project>{BCE6426C-603E-4A09-A017-CDC80EE5340C}</Project>
+      <Name>LocadoraWebApi.Dominio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

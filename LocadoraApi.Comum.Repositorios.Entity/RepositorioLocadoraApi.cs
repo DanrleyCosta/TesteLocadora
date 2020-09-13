@@ -1,4 +1,6 @@
 ﻿using LocadoraApi.Comum.Repositorios.Interfaces;
+using LocadoraWebApi.Consumo.Entity.Context;
+using LocadoraWebApi.Dominio;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -14,6 +16,7 @@ namespace LocadoraApi.Comum.Repositorios.Entity
         where TDominio : class
     {
         protected DbContext _context;
+        private LocadoraDb db = new LocadoraDb();
 
         public RepositorioLocadoraApi(DbContext context)
         {
@@ -25,9 +28,12 @@ namespace LocadoraApi.Comum.Repositorios.Entity
             _context.SaveChanges();
         }
 
-        public void DevolverPorId(TChave dominio)
+        public void DevolverPorId(TChave id, DateTime dataDevolucao)
         {
-            throw new NotImplementedException();
+            TDominio dominio = SelecionarPorId(id);
+            Locacao locacao = db.Locacoes.Find(id);
+            locacao.DataDevolucao = dataDevolucao;
+            Atualizar(dominio);
         }
 
         public void Excluir(TDominio dominio)
@@ -48,9 +54,13 @@ namespace LocadoraApi.Comum.Repositorios.Entity
             _context.SaveChanges();
         }
 
-        public void LocarPorId(TChave dominio)
+        public void LocarPorId(Locacao locacao)
         {
-            throw new NotImplementedException();
+            locacao.Filme = db.Filmes.Find(locacao.FId);
+            locacao.Cliente = db.Clientes.Find(locacao.CId);
+            if (!locacao.PossuiCreditos())
+                throw new Exception("Cliente não possui créditos suficientes para locação");
+            _context.Set<Locacao>().Add(locacao);
         }
 
         public List<TDominio> Selecionar(Expression<Func<TDominio, bool>> where = null)

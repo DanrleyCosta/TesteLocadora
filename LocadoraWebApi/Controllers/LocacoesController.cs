@@ -37,7 +37,7 @@ namespace LocadoraWebApi.Controllers
             // tratamento caso não seja criado corretamente a locaçao
             try
             {
-                _repositorioLocacoes.Inserir(locacao);
+                _repositorioLocacoes.LocarPorId(locacao);
                 return Created($"{Request.RequestUri}/{locacao.Id}", locacao);
             }
             catch (Exception ex)
@@ -47,7 +47,7 @@ namespace LocadoraWebApi.Controllers
         }
         public IHttpActionResult Put(int? id, [FromBody] Locacao locacao)
         {
-            // tratamento caso não seja criado corretamente a locaçao
+            // tratamento caso não seja criado corretamente a locação
             try
             {
                 // modificação do status da locação
@@ -65,7 +65,7 @@ namespace LocadoraWebApi.Controllers
         }
         public IHttpActionResult Delete(int? id)
         {
-            // tratamento caso não seja criado corretamente o filme
+            // tratamento caso não seja criado corretamente a Locação
             try
             {
                 // Excluir por ID

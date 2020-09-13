@@ -1,4 +1,5 @@
 ﻿using Castle.DynamicProxy.Generators.Emitters.SimpleAST;
+using LocadoraWebApi.Dominio;
 using Microsoft.Ajax.Utilities;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,7 @@ namespace LocadoraApi.Comum.Repositorios.Interfaces
         void Atualizar(TDominio dominio);
         void Excluir(TDominio dominio);
         void ExcluirPorId(TChave dominio);
-        void LocarPorId(TChave dominio);
-        void DevolverPorId(TChave dominio);
+        void LocarPorId(Locacao dominio);
+        void DevolverPorId(TChave dominio, DateTime dataDevolucao);
     }
 }

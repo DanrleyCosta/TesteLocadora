@@ -13,7 +13,7 @@ namespace LocadoraWebApi.Dominio
         [Key]
         [Required]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [DataType(DataType.Date)]
