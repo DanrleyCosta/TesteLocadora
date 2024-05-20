@@ -1,5 +1,0 @@
-C:\Users\danco\source\repos\1-Cadastro\obj\Debug\netcoreapp3.1\_1_Cadastro.Cadastro.resources
-C:\Users\danco\source\repos\1-Cadastro\obj\Debug\netcoreapp3.1\1-Cadastro.csproj.GenerateResource.cache
-C:\Users\danco\source\repos\1-Cadastro\obj\Debug\netcoreapp3.1\1-Cadastro.AssemblyInfoInputs.cache
-C:\Users\danco\source\repos\1-Cadastro\obj\Debug\netcoreapp3.1\1-Cadastro.AssemblyInfo.cs
-C:\Users\danco\source\repos\1-Cadastro\obj\Debug\netcoreapp3.1\1-Cadastro.csproj.CoreCompileInputs.cache
