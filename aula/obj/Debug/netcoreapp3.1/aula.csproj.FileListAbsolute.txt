@@ -1,0 +1,13 @@
+C:\Users\danco\source\repos\aula\bin\Debug\netcoreapp3.1\aula.exe
+C:\Users\danco\source\repos\aula\bin\Debug\netcoreapp3.1\aula.deps.json
+C:\Users\danco\source\repos\aula\bin\Debug\netcoreapp3.1\aula.runtimeconfig.json
+C:\Users\danco\source\repos\aula\bin\Debug\netcoreapp3.1\aula.runtimeconfig.dev.json
+C:\Users\danco\source\repos\aula\bin\Debug\netcoreapp3.1\aula.dll
+C:\Users\danco\source\repos\aula\bin\Debug\netcoreapp3.1\aula.pdb
+C:\Users\danco\source\repos\aula\obj\Debug\netcoreapp3.1\aula.csprojAssemblyReference.cache
+C:\Users\danco\source\repos\aula\obj\Debug\netcoreapp3.1\aula.AssemblyInfoInputs.cache
+C:\Users\danco\source\repos\aula\obj\Debug\netcoreapp3.1\aula.AssemblyInfo.cs
+C:\Users\danco\source\repos\aula\obj\Debug\netcoreapp3.1\aula.csproj.CoreCompileInputs.cache
+C:\Users\danco\source\repos\aula\obj\Debug\netcoreapp3.1\aula.dll
+C:\Users\danco\source\repos\aula\obj\Debug\netcoreapp3.1\aula.pdb
+C:\Users\danco\source\repos\aula\obj\Debug\netcoreapp3.1\aula.genruntimeconfig.cache

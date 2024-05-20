@@ -1,0 +1,13 @@
+C:\Users\danco\source\repos\testteze\bin\Debug\netcoreapp3.1\testteze.exe
+C:\Users\danco\source\repos\testteze\bin\Debug\netcoreapp3.1\testteze.deps.json
+C:\Users\danco\source\repos\testteze\bin\Debug\netcoreapp3.1\testteze.runtimeconfig.json
+C:\Users\danco\source\repos\testteze\bin\Debug\netcoreapp3.1\testteze.runtimeconfig.dev.json
+C:\Users\danco\source\repos\testteze\bin\Debug\netcoreapp3.1\testteze.dll
+C:\Users\danco\source\repos\testteze\bin\Debug\netcoreapp3.1\testteze.pdb
+C:\Users\danco\source\repos\testteze\obj\Debug\netcoreapp3.1\testteze.csprojAssemblyReference.cache
+C:\Users\danco\source\repos\testteze\obj\Debug\netcoreapp3.1\testteze.AssemblyInfoInputs.cache
+C:\Users\danco\source\repos\testteze\obj\Debug\netcoreapp3.1\testteze.AssemblyInfo.cs
+C:\Users\danco\source\repos\testteze\obj\Debug\netcoreapp3.1\testteze.csproj.CoreCompileInputs.cache
+C:\Users\danco\source\repos\testteze\obj\Debug\netcoreapp3.1\testteze.dll
+C:\Users\danco\source\repos\testteze\obj\Debug\netcoreapp3.1\testteze.pdb
+C:\Users\danco\source\repos\testteze\obj\Debug\netcoreapp3.1\testteze.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\danco\source\repos\SistemaDeLeilao\bin\Debug\netcoreapp3.1\SistemaDeLeilao.exe
+C:\Users\danco\source\repos\SistemaDeLeilao\bin\Debug\netcoreapp3.1\SistemaDeLeilao.deps.json
+C:\Users\danco\source\repos\SistemaDeLeilao\bin\Debug\netcoreapp3.1\SistemaDeLeilao.runtimeconfig.json
+C:\Users\danco\source\repos\SistemaDeLeilao\bin\Debug\netcoreapp3.1\SistemaDeLeilao.runtimeconfig.dev.json
+C:\Users\danco\source\repos\SistemaDeLeilao\bin\Debug\netcoreapp3.1\SistemaDeLeilao.dll
+C:\Users\danco\source\repos\SistemaDeLeilao\bin\Debug\netcoreapp3.1\SistemaDeLeilao.pdb
+C:\Users\danco\source\repos\SistemaDeLeilao\obj\Debug\netcoreapp3.1\SistemaDeLeilao.csprojAssemblyReference.cache
+C:\Users\danco\source\repos\SistemaDeLeilao\obj\Debug\netcoreapp3.1\SistemaDeLeilao.AssemblyInfoInputs.cache
+C:\Users\danco\source\repos\SistemaDeLeilao\obj\Debug\netcoreapp3.1\SistemaDeLeilao.AssemblyInfo.cs
+C:\Users\danco\source\repos\SistemaDeLeilao\obj\Debug\netcoreapp3.1\SistemaDeLeilao.csproj.CoreCompileInputs.cache
+C:\Users\danco\source\repos\SistemaDeLeilao\obj\Debug\netcoreapp3.1\SistemaDeLeilao.dll
+C:\Users\danco\source\repos\SistemaDeLeilao\obj\Debug\netcoreapp3.1\SistemaDeLeilao.pdb
+C:\Users\danco\source\repos\SistemaDeLeilao\obj\Debug\netcoreapp3.1\SistemaDeLeilao.genruntimeconfig.cache
